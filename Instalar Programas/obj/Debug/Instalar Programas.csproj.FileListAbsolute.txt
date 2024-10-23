@@ -7,3 +7,12 @@ C:\Users\aluno\source\repos\Instalar Programas\Instalar Programas\obj\Debug\Inst
 C:\Users\aluno\source\repos\Instalar Programas\Instalar Programas\obj\Debug\Instalar Programas.csproj.CoreCompileInputs.cache
 C:\Users\aluno\source\repos\Instalar Programas\Instalar Programas\obj\Debug\Instalar Programas.exe
 C:\Users\aluno\source\repos\Instalar Programas\Instalar Programas\obj\Debug\Instalar Programas.pdb
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\bin\Debug\Instalar Programas.exe
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\bin\Debug\Instalar Programas.pdb
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.csproj.AssemblyReference.cache
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar_Programas.main.resources
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar_Programas.Properties.Resources.resources
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.csproj.GenerateResource.cache
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.csproj.CoreCompileInputs.cache
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.exe
+C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.pdb
