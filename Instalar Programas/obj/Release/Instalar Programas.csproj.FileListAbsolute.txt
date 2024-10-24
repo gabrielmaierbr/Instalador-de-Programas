@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\bin\Release\Instalar Programas.exe
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\bin\Release\Instalar Programas.pdb
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar Programas.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar_Programas.main.resources
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar_Programas.Properties.Resources.resources
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar Programas.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar Programas.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar Programas.exe
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Release\Instalar Programas.pdb

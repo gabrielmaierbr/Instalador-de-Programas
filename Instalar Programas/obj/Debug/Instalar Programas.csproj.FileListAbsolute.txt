@@ -16,3 +16,12 @@ C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-ma
 C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.csproj.CoreCompileInputs.cache
 C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.exe
 C:\Users\SENAI\Downloads\Instalador-de-Programas-main\Instalador-de-Programas-main\Instalar Programas\obj\Debug\Instalar Programas.pdb
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\bin\Debug\Instalar Programas.exe
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\bin\Debug\Instalar Programas.pdb
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar Programas.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar_Programas.main.resources
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar_Programas.Properties.Resources.resources
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar Programas.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar Programas.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar Programas.exe
+C:\Users\User\source\repos\Instalador-de-Programas\Instalar Programas\obj\Debug\Instalar Programas.pdb

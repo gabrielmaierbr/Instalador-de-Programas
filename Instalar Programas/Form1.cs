@@ -35,7 +35,7 @@ namespace Instalar_Programas
                 checkBoxVSCode, checkBoxNotepad, checkBoxGit, checkBox7z,
                 checkBoxNodeJS, checkBoxPyCharm, checkBoxIntelliJ, checkBoxPy, checkBoxVStudio, checkBoxSQL,
 
-                checkBoxMSI, checkBoxGPUZ, checkBoxCPUZ, checkBoxHWMonitor,
+                checkBoxMSI, checkBoxGPUZ, checkBoxCPUZ, checkBoxHWMonitor, checkBoxLibreOffice,
 
                 checkBoxMinecraft, checkBoxValorant, checkBoxLOL, checkBoxHydra, checkBoxCloneHero, checkBoxOsu
             };
@@ -68,12 +68,10 @@ namespace Instalar_Programas
         {
             labelNowInstalling.Visible = true;
             labelInstalling.Visible = true;
-            System.Diagnostics.Process process = new Process();
 
-            process.StartInfo.FileName = "cmd";
-            process.StartInfo.RedirectStandardOutput = true;
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "cmd.exe";
             process.StartInfo.UseShellExecute = false;
-            process.StartInfo.CreateNoWindow = true;
 
             switch (variavel)
             {
@@ -126,7 +124,7 @@ namespace Instalar_Programas
                     labelInstalling.Text = "Battle.net";
                     break;
                 case "Ubisoft Connect":
-                    process.StartInfo.Arguments = "/C winget install Ubisoft.Uplay";
+                    process.StartInfo.Arguments = "/C winget install Ubisoft.Connect";
                     labelInstalling.Text = "Ubisoft Connect";
                     break;
                 case "Spotify":
@@ -141,9 +139,9 @@ namespace Instalar_Programas
                     process.StartInfo.Arguments = "/C winget install qBittorrent.qBittorrent";
                     labelInstalling.Text = "qBittorrent";
                     break;
-                case "Libre Office":
-                    process.StartInfo.Arguments = "/C winget install LibreOffice.LibreOffice";
-                    labelInstalling.Text = "Libre Office";
+                case "LibreOffice":
+                    process.StartInfo.Arguments = "/C winget install TheDocumentFoundation.LibreOffice";
+                    labelInstalling.Text = "LibreOffice";
                     break;
                 case "OBS Studio":
                     process.StartInfo.Arguments = "/C winget install OBSProject.OBSStudio";
@@ -162,7 +160,7 @@ namespace Instalar_Programas
                     labelInstalling.Text = "GPU-Z";
                     break;
                 case "MSI Afterburner":
-                    process.StartInfo.Arguments = "/C winget install MSI.Afterburner";
+                    process.StartInfo.Arguments = "/C winget install Guru3D.Afterburner";
                     labelInstalling.Text = "MSI Afterburner";
                     break;
                 case "HW Monitor":
@@ -174,7 +172,7 @@ namespace Instalar_Programas
                     labelInstalling.Text = "VS Code";
                     break;
                 case "Visual Studio":
-                    process.StartInfo.Arguments = "/C winget install Microsoft.VisualStudio";
+                    process.StartInfo.Arguments = "/C winget install Microsoft.VisualStudio.2022.Community.Preview";
                     labelInstalling.Text = "Visual Studio";
                     break;
                 case "Notepad++":
@@ -382,6 +380,7 @@ namespace Instalar_Programas
             process13.WaitForExit();
 
             labelInstalling.Text = "Instalação concluída";
+            labelNowInstalling.Visible = false;
             timerLabel.Start();
         }
 
@@ -391,7 +390,7 @@ namespace Instalar_Programas
             {
                 using (WebClient client = new WebClient())
                 {
-                    using (client.OpenRead("http://www.google.com/"))
+                    using (client.OpenRead("http://www.google.com.br/"))
                     {
                         return true;
                     }
@@ -444,8 +443,7 @@ namespace Instalar_Programas
 
 
         private void main_Load(object sender, EventArgs e)
-        { 
-            
+        {
             if (IsWingetInstalled())
             {
                 labelStatusAppInstaller.Text = "OK";
@@ -478,8 +476,8 @@ namespace Instalar_Programas
 
         private void timerLabel_Tick(object sender, EventArgs e)
         {
-            labelInstalling.Visible = false;
             labelNowInstalling.Visible = false;
+            labelInstalling.Visible = false;
             timerLabel.Stop();
         }
 
@@ -508,7 +506,7 @@ namespace Instalar_Programas
                 { "Telegram", () => installProgramas("Telegram") },
 
                 { "qBittorrent", () => installProgramas("qBittorrent") },
-                { "Libre Office", () => installProgramas("Libre Office") },
+                { "LibreOffice", () => installProgramas("LibreOffice") },
                 { "OBS Studio", () => installProgramas("OBS Studio") },
                 { "7zip", () => installProgramas("7zip") },
 
