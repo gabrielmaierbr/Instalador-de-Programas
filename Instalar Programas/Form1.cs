@@ -259,11 +259,12 @@ namespace Instalar_Programas
 
         public void InstalarVisualCpp()
         {
+            labelNowInstalling.Visible = true;
+            labelInstalling.Visible = true;
             System.Diagnostics.Process process = new Process();
             process.StartInfo.FileName = "cmd";
             process.StartInfo.RedirectStandardOutput = true;
             process.StartInfo.UseShellExecute = false;
-            process.StartInfo.CreateNoWindow = true;
             process.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2005.x86";
             labelInstalling.Text = "Visual C++ 2005 x86";
             process.Start();
@@ -273,7 +274,6 @@ namespace Instalar_Programas
             process2.StartInfo.FileName = "cmd";
             process2.StartInfo.RedirectStandardOutput = true;
             process2.StartInfo.UseShellExecute = false;
-            process2.StartInfo.CreateNoWindow = true;
             process2.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2005.x64";
             labelInstalling.Text = "Visual C++ 2005 x64";
             process2.Start();
@@ -283,7 +283,6 @@ namespace Instalar_Programas
             process3.StartInfo.FileName = "cmd";
             process3.StartInfo.RedirectStandardOutput = true;
             process3.StartInfo.UseShellExecute = false;
-            process3.StartInfo.CreateNoWindow = true;
             process3.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2008.x86";
             labelInstalling.Text = "Visual C++ 2008 x86";
             process3.Start();
@@ -293,7 +292,6 @@ namespace Instalar_Programas
             process4.StartInfo.FileName = "cmd";
             process4.StartInfo.RedirectStandardOutput = true;
             process4.StartInfo.UseShellExecute = false;
-            process4.StartInfo.CreateNoWindow = true;
             process4.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2008.x64";
             labelInstalling.Text = "Visual C++ 2008 x64";
             process4.Start();
@@ -303,7 +301,6 @@ namespace Instalar_Programas
             process5.StartInfo.FileName = "cmd";
             process5.StartInfo.RedirectStandardOutput = true;
             process5.StartInfo.UseShellExecute = false;
-            process5.StartInfo.CreateNoWindow = true;
             process5.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2010.x86";
             labelInstalling.Text = "Visual C++ 2010 x86";
             process5.Start();
@@ -313,7 +310,6 @@ namespace Instalar_Programas
             process6.StartInfo.FileName = "cmd";
             process6.StartInfo.RedirectStandardOutput = true;
             process6.StartInfo.UseShellExecute = false;
-            process6.StartInfo.CreateNoWindow = true;
             process6.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2010.x64";
             labelInstalling.Text = "Visual C++ 2010 x64";
             process6.Start();
@@ -323,7 +319,6 @@ namespace Instalar_Programas
             process7.StartInfo.FileName = "cmd";
             process7.StartInfo.RedirectStandardOutput = true;
             process7.StartInfo.UseShellExecute = false;
-            process7.StartInfo.CreateNoWindow = true;
             process7.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2012.x86";
             labelInstalling.Text = "Visual C++ 2012 x86";
             process7.Start();
@@ -333,7 +328,6 @@ namespace Instalar_Programas
             process8.StartInfo.FileName = "cmd";
             process8.StartInfo.RedirectStandardOutput = true;
             process8.StartInfo.UseShellExecute = false;
-            process8.StartInfo.CreateNoWindow = true;
             process8.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2012.x64";
             labelInstalling.Text = "Visual C++ 2012 x64";
             process8.Start();
@@ -343,7 +337,6 @@ namespace Instalar_Programas
             process9.StartInfo.FileName = "cmd";
             process9.StartInfo.RedirectStandardOutput = true;
             process9.StartInfo.UseShellExecute = false;
-            process9.StartInfo.CreateNoWindow = true;
             process9.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2013.x86";
             labelInstalling.Text = "Visual C++ 2013 x86";
             process9.Start();
@@ -353,7 +346,6 @@ namespace Instalar_Programas
             process10.StartInfo.FileName = "cmd";
             process10.StartInfo.RedirectStandardOutput = true;
             process10.StartInfo.UseShellExecute = false;
-            process10.StartInfo.CreateNoWindow = true;
             process10.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2013.x64";
             labelInstalling.Text = "Visual C++ 2013 x64";
             process10.Start();
@@ -363,7 +355,6 @@ namespace Instalar_Programas
             process12.StartInfo.FileName = "cmd";
             process12.StartInfo.RedirectStandardOutput = true;
             process12.StartInfo.UseShellExecute = false;
-            process12.StartInfo.CreateNoWindow = true;
             process12.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2015+.x86";
             labelInstalling.Text = "Visual C++ 2015 - 2022 x86";
             process12.Start();
@@ -373,7 +364,6 @@ namespace Instalar_Programas
             process13.StartInfo.FileName = "cmd";
             process13.StartInfo.RedirectStandardOutput = true;
             process13.StartInfo.UseShellExecute = false;
-            process13.StartInfo.CreateNoWindow = true;
             process13.StartInfo.Arguments = "/C winget install Microsoft.VCRedist.2015+.x64";
             labelInstalling.Text = "Visual C++ 2015 - 2022 x64";
             process13.Start();
