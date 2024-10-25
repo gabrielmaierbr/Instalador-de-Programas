@@ -80,7 +80,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="setup_icon.ico" />
     <Content Include="setup_icon_blue.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

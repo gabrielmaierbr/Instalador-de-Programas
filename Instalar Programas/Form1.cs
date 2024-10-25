@@ -132,7 +132,7 @@ namespace Instalar_Programas
                     labelInstalling.Text = "Spotify";
                     break;
                 case "Telegram":
-                    process.StartInfo.Arguments = "/C winget install Telegram.Telegram";
+                    process.StartInfo.Arguments = "/C winget install Telegram.TelegramDesktop";
                     labelInstalling.Text = "Telegram";
                     break;
                 case "qBittorrent":
