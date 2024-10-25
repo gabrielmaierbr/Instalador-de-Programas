@@ -86,6 +86,7 @@
             this.timerLabel = new System.Windows.Forms.Timer(this.components);
             this.labelNowInstalling = new System.Windows.Forms.Label();
             this.labelInstalling = new System.Windows.Forms.Label();
+            this.checkBoxXAMPP = new System.Windows.Forms.CheckBox();
             this.groupBoxRuntimes.SuspendLayout();
             this.groupBoxNavegadores.SuspendLayout();
             this.groupBoxProgramas.SuspendLayout();
@@ -334,6 +335,7 @@
             // 
             // groupBoxDEV
             // 
+            this.groupBoxDEV.Controls.Add(this.checkBoxXAMPP);
             this.groupBoxDEV.Controls.Add(this.checkBoxVStudio);
             this.groupBoxDEV.Controls.Add(this.checkBoxSQL);
             this.groupBoxDEV.Controls.Add(this.checkBoxPyCharm);
@@ -730,6 +732,17 @@
             this.labelInstalling.TabIndex = 14;
             this.labelInstalling.Text = "-";
             // 
+            // checkBoxXAMPP
+            // 
+            this.checkBoxXAMPP.AutoSize = true;
+            this.checkBoxXAMPP.Location = new System.Drawing.Point(17, 262);
+            this.checkBoxXAMPP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBoxXAMPP.Name = "checkBoxXAMPP";
+            this.checkBoxXAMPP.Size = new System.Drawing.Size(75, 20);
+            this.checkBoxXAMPP.TabIndex = 14;
+            this.checkBoxXAMPP.Text = "XAMPP";
+            this.checkBoxXAMPP.UseVisualStyleBackColor = true;
+            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -835,6 +848,7 @@
         private System.Windows.Forms.Timer timerLabel;
         private System.Windows.Forms.Label labelNowInstalling;
         private System.Windows.Forms.Label labelInstalling;
+        private System.Windows.Forms.CheckBox checkBoxXAMPP;
     }
 }
 

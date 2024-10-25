@@ -33,7 +33,7 @@ namespace Instalar_Programas
                 checkBoxSpotify, checkBoxTorrent, checkBoxOBS, checkBoxWhatsapp, checkBoxTelegram,
 
                 checkBoxVSCode, checkBoxNotepad, checkBoxGit, checkBox7z,
-                checkBoxNodeJS, checkBoxPyCharm, checkBoxIntelliJ, checkBoxPy, checkBoxVStudio, checkBoxSQL,
+                checkBoxNodeJS, checkBoxPyCharm, checkBoxIntelliJ, checkBoxPy, checkBoxVStudio, checkBoxSQL, checkBoxXAMPP,
 
                 checkBoxMSI, checkBoxGPUZ, checkBoxCPUZ, checkBoxHWMonitor, checkBoxLibreOffice,
 
@@ -202,6 +202,10 @@ namespace Instalar_Programas
                 case "MySQL":
                     process.StartInfo.Arguments = "/C winget install Oracle.MySQL";
                     labelInstalling.Text = "MySQL";
+                    break;
+                case "XAMPP":
+                    process.StartInfo.Arguments = "/C winget install ApacheFriends.Xampp.8.2";
+                    labelInstalling.Text = "XAMPP";
                     break;
                 case "League of Legends":
                     process.StartInfo.Arguments = "/C winget install RiotGames.LeagueOfLegends.BR";
@@ -514,6 +518,7 @@ namespace Instalar_Programas
                 { "IntelliJ IDEA", () => installProgramas("IntelliJ IDEA") },
                 { "PyCharm", () => installProgramas("PyCharm") },
                 { "MySQL", () => installProgramas("MySQL") },
+                { "XAMPP", () => installProgramas("XAMPP") },
 
                 { "League of Legends", () => installProgramas("League of Legends") },
                 { "Valorant", () => installProgramas("Valorant") },
